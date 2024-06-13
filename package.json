@@ -1,0 +1,21 @@
+{
+  "name": "duckdb-wasm-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server public -p 5050"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@duckdb/duckdb-wasm": "^1.28.1-dev106.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@codemirror/lang-sql": "^6.6.4",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "codemirror": "^6.0.1"
+  }
+}
